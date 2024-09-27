@@ -37,7 +37,7 @@ const App = () => {
 
   return (
     <div className='container'>
-    <h>Goal Tracker</h>
+    <h className='header'>Goal Tracker</h>
       <section id="goal-form">
         <CourseInput onAddGoal={addGoalHandler} />
       </section>
